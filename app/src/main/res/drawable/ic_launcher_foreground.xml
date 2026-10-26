@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Crown at the top -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M34,35 L40,43 L54,32 L68,43 L74,35 L71,51 L37,51 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M34,35 L40,43 L48,37 L45,51 L37,51 Z" />
+    <!-- Crown gems -->
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M34,35 A2,2 0 1,1 34,31 A2,2 0 1,1 34,35 Z" />
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M54,32 A2.5,2.5 0 1,1 54,27 A2.5,2.5 0 1,1 54,32 Z" />
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M74,35 A2,2 0 1,1 74,31 A2,2 0 1,1 74,35 Z" />
+
+    <!-- Download chevron / arrow body with dynamic gradient -->
+    <path android:pathData="M48,50 L60,50 L60,63 L70,63 L54,78 L38,63 L48,63 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="50"
+                android:endX="54"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF5722" />
+                <item android:offset="1.0" android:color="#E91E63" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Base bar for download completion -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M38,81 L70,81 L70,84 L38,84 Z" />
+</vector>

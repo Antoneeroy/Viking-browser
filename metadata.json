@@ -1,0 +1,6 @@
+{
+  "name": "VidKing",
+  "description": "High-speed video & audio downloader, multi-site browser, media player, and private vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
